@@ -136,7 +136,7 @@ lafiya-docs/
     ├── README.md                 ← docs index — start here
     ├── concept-note.md, data-model.md, threat-model.md, privacy-design.md
     ├── data-retention-policy.md, funding-and-dpg.md, roadmap.md
-    ├── personas.md, faq.md, glossary.md, style-guide.md
+    ├── personas.md, faq.md, glossary.md, style-guide.md, outage-communication-plan.md
     ├── api-surface-sketch.md, testing-strategy.md   ← forward-looking, not yet implemented
     └── adr/                      ← Architecture Decision Records
 ```
@@ -148,7 +148,7 @@ Full documentation lives in [`docs/`](docs/README.md):
 - [Concept note](docs/concept-note.md) — problem, solution, theory of change
 - [Data model](docs/data-model.md) · [Threat model](docs/threat-model.md) · [Privacy design](docs/privacy-design.md) · [Data retention policy](docs/data-retention-policy.md)
 - [Funding & DPG notes](docs/funding-and-dpg.md) · [Roadmap detail](docs/roadmap.md)
-- [Personas](docs/personas.md) · [FAQ](docs/faq.md)
+- [Personas](docs/personas.md) · [FAQ](docs/faq.md) · [Outage communication plan](docs/outage-communication-plan.md)
 - [API & contract surface sketch](docs/api-surface-sketch.md) (forward-looking) · [Testing strategy](docs/testing-strategy.md) (forward-looking)
 - [Architecture Decision Records](docs/adr/README.md)
 - [Glossary](docs/glossary.md) · [Style guide](docs/style-guide.md)

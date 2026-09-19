@@ -14,6 +14,7 @@ This directory is the single source of truth for Lafiya's design. Start here.
 | [roadmap.md](roadmap.md) | Milestone-by-milestone detail behind the README roadmap |
 | [personas.md](personas.md) | The people Lafiya is designed around |
 | [faq.md](faq.md) | Common questions from patients, CHWs, responders, and funders |
+| [outage-communication-plan.md](outage-communication-plan.md) | Patient and responder incident communication runbook for low-connectivity contexts |
 | [api-surface-sketch.md](api-surface-sketch.md) | Forward-looking sketch of the `lafiya-web` API and Soroban contract interface |
 | [testing-strategy.md](testing-strategy.md) | How the eventual app and contracts should be tested |
 | [style-guide.md](style-guide.md) | Writing conventions for contributing to these docs |

@@ -42,7 +42,7 @@
 | **Tampering** | Attacker edits the emergency subset after attestation | Any edit invalidates the hash; the public page shows "unverified" until re-attested |
 | **Repudiation** | Attester denies having verified a record | On-chain attestation is a public, timestamped, non-repudiable record |
 | **Information disclosure** | Full patient profile leaks via the public page | Emergency subset and full profile are architecturally separate; the public page code path never has access to full-profile fields |
-| **Denial of service** | Attacker floods the public page endpoint | Standard rate limiting at `lafiya-web`'s edge; QR pages are static/cacheable by design |
+| **Denial of service** | Attacker floods the public page endpoint | Standard rate limiting at `lafiya-web`'s edge; QR pages are static/cacheable by design (see [outage communication plan](outage-communication-plan.md)) |
 | **Elevation of privilege** | CHW account is used to add itself to the attester allowlist | Allowlist changes require governance/committee action, not CHW-level credentials |
 
 ## Audit-readiness
