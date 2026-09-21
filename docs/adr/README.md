@@ -31,3 +31,5 @@ instead.
 | [0005](0005-usdc-for-chw-incentives.md) | USDC on Stellar for CHW incentives |
 | [0006](0006-verification-key-management.md) | Attester key management |
 | [0007](0007-patient-account-recovery.md) | Patient account-recovery mechanism |
+| [0008](0008-guardian-dependent-account-model.md) | Guardian-dependent account model |
+| [0010](0010-contract-upgradeability-strategy.md) | Contract upgradeability strategy for `lafiya-contract` |
